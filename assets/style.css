@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contactos {
+    background-color: white;
+    width: 25em;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorpadre {
+    display: flex;
+}
+
+.maria {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px
+}
+
+.perfilmaria {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.maria .perfilmaria .textomaria {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+}
+
+.maria .perfilmaria .textomaria .textointerno {
+    margin-bottom: 0;
+}
+
+.maria .perfilmaria {
+    text-align: left;
+}
+
+.maria .iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.boton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.seccion-lista-usuarios {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.usuario {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px 16px
+}
+
+.usuario:hover {
+    background-color: #E8ebe4;
+}
+
+.usuario .avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.usuario .avatar {
+    display: block;
+    width: 50px;
+    min-height: 50px;
+    margin-right: 1rem;
+    position: relative;
+    background-color: #E4E8F0;
+    border-radius: 50%;
+}
+
+.usuario .cuerpo {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.usuario .cuerpo span {
+    display: block;
+}
+
+.usuario .estado-usuario {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #adadad;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.usuario .estado-usuario.enlinea {
+    background-color: #49DD45;
+}
+
+.usuario .estado-usuario.ocupado {
+    background-color: red;
+}
+
+.usuario .estado-usuario.desconectado {
+    background-color: #ADADAD;
+}
+
+.notificacion {
+    display: block;
+    width: auto;
+    float: right;
+    background-color: #A491D2;
+    color: white;
+    padding: 0 8px;
+    border-radius: 8px;
+}
+
+input {
+    border: none;
+    color: white;
+    background-color: #A491D2;
+}
+
+input:hover {
+    background-color: #CDC3E6;
+}
+
+input:focus {
+    background-color: #BEC1BB;
+}
+
+.textocentral {
+    font-size: 1.4em;
+    font-stretch: expanded;
+    height: 8em;
+    width: 100%;
+    padding: 1em 8em;
+    text-align: center;
+    color: black;
+}
+
+.red {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8ebe4;
+    min-height: 100vh;
+}
+
+.red img {
+    width: 250px;
+}
