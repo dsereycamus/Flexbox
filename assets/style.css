@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
+p, span{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h5,h1{
+    font-family: 'Roboto', sans-serif;
+}
+
 .contactos {
     background-color: white;
-    width: 25em;
+    width: 30em;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
